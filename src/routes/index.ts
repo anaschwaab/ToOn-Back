@@ -1,8 +1,10 @@
-import { Router } from "express";
-import { startRouter } from "./start.routes";
+import { Router } from 'express'
+import { startRouter } from './start.routes'
+import { userRouter } from './user.routes'
 
-const routes = Router();
+const routes = Router()
 
-routes.use('/api/start', startRouter);
+routes.use('/api/status', startRouter)
+routes.use('/api/user', userRouter)
 
-export { routes };
+export { routes }
