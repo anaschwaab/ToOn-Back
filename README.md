@@ -1,23 +1,5 @@
 ## Instalação do projeto
 
-# Rotas
-
-```baseUrl: "baseUrl": "http://localhost:3333/api"```
-
-Create User:
-
-Type: Post
-```/user```
-
-Get User:
-
-Type: Get
-```/user```
-
-
-
-
-
 - Abra o terminal e clone o repositório com o comando
 
 ```git clone https://github.com/anaschwaab/ToOn-Back.git```
@@ -37,3 +19,7 @@ Type: Get
 - Rode o aplicação
 
 ```npm run dev```
+
+## Swagger
+
+```http://localhost:3333/api/docs```
